@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(to left, #d6e5fa,#e6b2c6);
+}
+.profilecard{
+    width: 330px; 
+    height: 350px; 
+    background-color: whitesmoke;
+    border-radius: 10px; 
+    margin: auto; 
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+}
+.circle{
+    width: 10px; 
+    height: 10px; 
+    background-color:rgb(211,243,197);
+    border-radius: 50%;
+    position: absolute; 
+    top: 45px;
+    right:130px;
+}
+img{
+    width: 100px; 
+    display: inline-block; 
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+h3{
+    font-family: sans-serif;
+    color: #969798;
+    margin-top: 15px;
+}
+h5{
+    color: #b3b5b3;
+    font-size:12px; 
+    font-family: sans-serif;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin:px;
+    color:#9b45e4 ;
+    text-align: center;
+    font-size: 15px;
+}
+span{
+    font-size: 10px; 
+    margin:10px; 
+    color:#b3b5b3;
+}
+button{ 
+    margin: 20px 10px;
+    width: 110px; 
+    height: 35px;
+    border-radius: 10px; 
+    color: aliceblue;
+}
+.follow{
+    background-color: #9b45e4; 
+    border-style: none;
+}
+.message{
+    background-color: #e13a9d;
+    border-style: none;
+}
+button a{
+    text-decoration: none; 
+     color: aliceblue;
+}
+
+
+
+
+
